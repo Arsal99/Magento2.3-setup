@@ -57,6 +57,7 @@ If above command is outputting the Apache version then you successfully installe
 sudo service apache2 status
 ```
 Open your browser and enter `http://localhost/` you will see welcome page. Open your terminal (CTRL+ALT+T) and run `sudo chown $USER:$USER -R /var/www` it will change the ownership of `/var/www/` to you so you can create and modify files and directories under `/var/www/`.
+You can also use name of user like arslan or group of user like arslan123 instead of &USER:$USER
 Following are useful Apache commands
 - `apache2 -M` to list all active modules of Apache.
 - `apache2 -V` to get the Apache version
